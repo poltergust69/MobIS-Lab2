@@ -19,7 +19,6 @@ class _MyAppState extends State<MyApp>{
     setState(() {
       _questionIndex += 1;
     });
-    print("You tapped me");
   }
 
   var questions = [
